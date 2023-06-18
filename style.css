@@ -1,0 +1,104 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rectangle{
+    height: 550px;
+    width: 100vw;
+    color: white;
+    background-color: rgb(255, 204, 0);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+   
+    
+} */
+/* .rectangle img{
+    height: 60px;
+    width: 60px;
+    display: block;
+    opacity: 10;
+    position: absolute;
+    left: 49%;
+    margin-top: 35px;
+    transform: rotateY('90');
+    opacity: 10;
+    transform: rotate(270deg);
+    border-radius: 50%;
+    background-color: rgba(110, 108, 108, 0.623);
+}
+/* .background-container {
+  width: 100vw;
+  height: 160px;
+  background-color: red;
+  position: relative;
+} */
+
+/* .background-separator {
+  width: 300px;
+  height: 140px;
+  background-color: rgb(255, 204, 0);
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rectangle{
+    height: 550px;
+    width: 100vw;
+    color: white;
+    background-color: rgb(255, 204, 0);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.rectangle img{
+    height: 60px;
+    width: 60px;
+    display: block;
+    opacity: 10;
+    position: absolute;
+    left: 49%;
+    margin-top: 35px;
+    transform: rotateY('90');
+    opacity: 10;
+    transform: rotate(270deg);
+    border-radius: 50%;
+    background-color: rgba(110, 108, 108, 0.623);
+}
+
+.background-container {
+    width: 100vw;
+    height: 160px;
+    background-color: rgb(231, 66, 66);
+    position: relative;
+    overflow: hidden; /* Added overflow property to hide the excess content */
+}
+
+.background-separator {
+    /* width: 100; Modified the width to 100% */
+    width: 600px;
+    height: 100px;
+    background-color: rgb(255, 204, 0);
+    position: absolute;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50px); /* Changed the translation property */
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%); /* Added clip-path to create a V shape */
+}
